@@ -1,0 +1,24 @@
+{
+  "name": "festival-musica",
+  "version": "1.0.0",
+  "description": "Proyecto con Gulp, SASS Y HTML",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "tarea": "gulp tarea",
+    "css": "gulp css",
+    "dev": "gulp dev"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Jefferson Alquinga",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.72.0"
+  }
+}
