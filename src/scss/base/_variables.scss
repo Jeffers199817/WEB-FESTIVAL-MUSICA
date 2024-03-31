@@ -1,12 +1,24 @@
+//Border
+* {
+  margin: 0; /* Ajusta el margen a tu preferencia */
+  border: 1px solid red; /* Esto aplicará un borde rojo a todas las etiquetas */
+}
+
 //Tipografia
 
-$fuente_principal: 'Montserrat',sans-serif;
+$fuente_principal: "Montserrat", sans-serif;
 
 //Colores
 
-$verde:#4cb8b3;
-$rosa:#F53756;
-$amarillo:#FEf46D;
-$morado:#752F97;
-$negro:#000000;
-$blanco:#FFFFFF;
+$verde: #4cb8b3;
+$rosa: #f53756;
+$amarillo: #fef46d;
+$morado: #752f97;
+$negro: #000000;
+$blanco: #ffffff;
+
+//TAMAÑÓS DE MEDIA QUERIES
+$telefono: 480px;
+$tablet: 850px;
+$desktop: 992px;
+$desktopXL: 1200px;
